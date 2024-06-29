@@ -22,5 +22,5 @@ To install and configure the project on your local machine, follow these steps:
    ```bash
    git clone https://github.com/SantiagoJimenezRamirez/Folder-CV
 
-2. Figma Design:
+## Figma Design:
    https://www.figma.com/design/qbDUxyz2DWCVk6Q0cYP4SB/Folder-Santiago-JR?node-id=0-1&t=VWIxZHi8HptgTOxP-0
