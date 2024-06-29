@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.p-header{
+    @apply text-lg w-[100%] ;
+}
+
+.p-header:hover{
+    @apply hover:text-[#BD68EE] cursor-pointer;
+}
+
+.custom-border-bottom {
+    @apply border-b-4 border-solid border-purple-600 text-[#BD68EE];
+  }
+  
+
+.paragraph{
+
+}
