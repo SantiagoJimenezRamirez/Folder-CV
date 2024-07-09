@@ -13,8 +13,13 @@
 .custom-border-bottom {
     @apply border-b-4 border-solid border-purple-600 text-[#BD68EE];
   }
-  
+
+.subtitle{
+    @apply text-4xl font-bold text-[#BD68EE] font-serif
+}
 
 .paragraph{
 
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
