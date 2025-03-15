@@ -5,13 +5,14 @@ import { FooterComponent } from "../../components/footer/footer.component";
 import { AboutMeComponent } from "../../components/about-me/about-me.component";
 import { LoaderComponent } from "../../shared/loader/loader.component";
 import { TargetComponent } from "../../shared/target/target.component";
+import { FolderComponent } from "../../components/folder/folder.component";
 
 @Component({
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.scss',
-    imports: [NavBarComponent, HomeBodyComponent, FooterComponent, AboutMeComponent, LoaderComponent, TargetComponent]
+    imports: [NavBarComponent, HomeBodyComponent, FooterComponent, AboutMeComponent, LoaderComponent, TargetComponent, FolderComponent]
 })
 export class HomeComponent {
 
