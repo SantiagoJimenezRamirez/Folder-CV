@@ -39,6 +39,8 @@ export class SignUpComponent {
           text: response.msg,
           icon: 'success',
           confirmButtonText: 'Accept'
+        }).then((confirm) =>{
+          this.route.navigateByUrl('/login')
         })
       },
       error: (error) => {

@@ -12,7 +12,7 @@ export class UserService {
   constructor(private http: HttpClient, private router: Router) {}
 
   register(user: any): Observable<any> {
-    return this.http.post(`${environment.apiUrl}/user/create`, user);
+    return this.http.post(`${environment.apiUrl}/app/user/create`, user);
   }
 
   login(user: any): Observable<any> {
